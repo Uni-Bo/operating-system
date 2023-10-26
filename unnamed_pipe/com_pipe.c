@@ -49,7 +49,7 @@ int main()
 	}
 	else
 	{
-		wait(NULL);
+		
 		//writing in pipe, so closing the read end
 		close(pipefd[0]);
 		printf("Enter what to input ");
