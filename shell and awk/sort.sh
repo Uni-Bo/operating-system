@@ -7,7 +7,7 @@ for((i=0;i<l;i++))
 do
 	p=$i
 	min=${arr[i]}
-	for((j=1;j<l;j++))
+	for((j=i;j<l;j++))
 	do
 		if ((arr[j]>min))
 		then
